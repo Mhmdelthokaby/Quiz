@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/121833b321.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+
+
+    <section class="bg-body-secondary vh-100 d-flex justify-content-center align-items-center">
+        
+        <div class="container  w-50 " id="container">
+            <div id="prog">
+                
+            </div>
+            <div class="head p-5 bg-white ">
+                <div>
+                    <h2 class="text-center py-2" id="question"></h2>
+                </div>
+                <div>
+                    <ul class="list-unstyled vstack gap-3">
+                        <li>
+                            <input type="radio" id="q0" name="answer" class="answer" value="a">
+                            <label for="q0" id="textQ0"></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1" name="answer" class="answer" value="b">
+                            <label for="q1" id="textQ1"></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q2" name="answer" class="answer" value="c">
+                            <label for="q2" id="textQ2"></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q3" name="answer" class="answer" value="d">
+                            <label for="q3" id="textQ3"></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button id="sub"
+                class="btn btn-info text-white w-100 rounded-bottom-4 p-3 fs-5 rounded-top-0">Submit</button>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
